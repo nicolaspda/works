@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+    <head>
+        <title>Como funciona</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/anim.js"></script>
+        <link rel= stylesheet type= text/css href= css/estilo_func.css>
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    </button>
+                    <a class="navbar-brand" href="principal.php">VOLTAR</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#func">COMO FUNCIONA</a></li>
+                        <li><a href="#servico">O SERVIÇO</a></li>
+                        <li><a href="#portfolio">O QUE DIZEM</a></li>
+                        <li><a href="#precos">PREÇOS</a></li>
+                        <li><a href="#contato">CONTATE-NOS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="centered">
+                <h1>WORKS</h1>
+                <p>Work for you, Work for me</p>
+            </div>
+        </div>
+        <!-- Container (Parte Como funciona) -->
+        <div id="func" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>Como funciona</h2>
+                    <h4>Você precisa que realizem um serviço por um preço que cabe no seu bolso? <br> Quer uma tarefa concluída mas está sem tempo para realizá-la? </h4>
+                    <p>
+                        Acesse a ferramenta, faça seu cadastro e indique o valor que está disposto a pagar e o local. <br>Pronto! Sua solicitação estará visível para diversos profissionais e autônomos entrarem em contato com você e executarem o serviço!
+                    </p>
+                    <br>
+                    <h4>Agora digamos que você esteja com um tempo livre e queira ganhar uma renda extra...</h4>
+                    <p>
+                        Começe a ganhar dinheiro hoje mesmo! Acesse a ferramenta e verifique através de diversas categorias, serviços disponíveis para atender.<br>Entre em contato com o solicitante e agende o serviço!
+                    </p>
+                    <br>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-question-sign logo"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-globe logo slideanim"></span>
+                </div>
+                <div class="col-sm-8">
+                    <h2>VISÃO DO NEGÓCIO</h2>
+                    <br>
+                                    <?php include 'mostra_vagas_user.php';?>
+
+                    <ul>
+                        <li>Muitas vezes o potencial dos trabalhadores acaba não sendo valorizado e suas habilidades podem ser utilizadas em benefício da população em novas ocasiões.
+                            Nosso aplicativo visa enaltecer a relação entre o conhecimento adquirido e sua aplicação no mercado de trabalho, conectando pessoas e trocando experiências.
+                        </li>
+                        <br>
+                        <li>Nosso website se diferencia de outros modelos de negócio pois coloca na mão do cliente e do contratado o controle da negociação.</li>
+                        <br>
+                        <li>A partir da apresentação de um sistema inovador de prestação de serviços remunerados, imaginamos uma plataforma em que as oportunidades podem ser criadas, geridas e realizadas por pessoas capacitadas nas áreas de interesse descritas no site.</li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Container (Parte dos Serviços) -->
+        <div id="servico" class="container-fluid text-center">
+            <h2>O SERVIÇO</h2>
+            <h4>O que oferecemos</h4>
+            <br>
+            <div class="row slideanim">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-thumbs-up logo-small"></span>
+                    <h4>Praticidade</h4>
+                    <p>Plataforma intuitiva</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-send logo-small"></span>
+                    <h4>Agilidade</h4>
+                    <p>Receba diversas propostas</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-lock logo-small"></span>
+                    <h4>Funcional</h4>
+                    <p>Seu problema resolvido</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="row slideanim">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-leaf logo-small"></span>
+                    <h4>Transparêcia</h4>
+                    <p>Informações acessíveis à todos</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-wrench logo-small"></span>
+                    <h4 style="color:#303030;">Controle total</h4>
+                    <p>Você que manda!</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-time logo-small"></span>
+                    <h4>Tempo é dinheiro</h4>
+                    <p>Seja reconhecido e lucre com isso</p>
+                </div>
+            </div>
+        </div>
+        <!-- Container (Parte O que dizem) -->
+        <div id="portfolio" class="container-fluid text-center bg-grey">
+            <h2>O que dizem sobre nós</h2>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <h4>"Incrível! Encontrei a plataforma perfeita pra exercer meu trabalho!"<br><span>João Augusto, Usuário</span></h4>
+                    </div>
+                    <div class="item">
+                        <h4>"Finalmente posso ganhar uma renda extra usando meu tempo livre e o que é melhor, ajudando as pessoas."<br><span>Julia, Usuária</span></h4>
+                    </div>
+                    <div class="item">
+                        <h4>"Estou extremamente satisfeito. Meu problema foi resolvido e paguei um valor justo!"<br><span>Cristiano, Solicitante</span></h4>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        \
+        <!-- Container (Parte do Contato) -->
+        <div id="contato" class="container-fluid bg-grey">
+            <h2 class="text-center">CONTATE-NOS</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Porto Alegre-RS, BR</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> 51-3333-3333</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> works@works.com.br</p>
+                </div>
+                <div class="col-sm-7 slideanim">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="commentario" name="comments" placeholder="Comentário" rows="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid text-center">
+            <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </footer>
+    </body>
+</html>
