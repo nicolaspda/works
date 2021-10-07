@@ -27,4 +27,7 @@ O sistema permite verificar as oportunidades inseridas, sua localização e os d
 Nicolas Pedroso do Amaral & Wagner Neves
 
 ### Motivação
-Criar um sistema que permita conectar pessoas que desejam prestar um serviço e localizar esses dados no mapa de forma facilitada
+-Criar um sistema que permita conectar pessoas que desejam prestar um serviço e localizar esses dados no mapa de forma facilitada
+-Projeto de TCC. Última alteração foi em 03/05/2018
+
+
